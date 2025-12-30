@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="/src/public/img/logo2.png" alt="Astracã Logo" className="max-w-[150px] w-full h-auto" />
+              <img src="/img/logo2.png" alt="Astracã Logo" className="max-w-[150px] w-full h-auto" />
             </div>
             <p className="text-gray-400 text-sm mb-4">
               Soluções ambientais integradas para um futuro sustentável em Angola.

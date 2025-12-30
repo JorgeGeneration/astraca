@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => setIsOpen(false)}>
-              <img src="/src/public/img/logo1.png" alt="Astracã Logo" className="max-w-[100px] w-full h-auto" />
+              <img src="/img/logo1.png" alt="Astracã Logo" className="max-w-[100px] w-full h-auto" />
             </Link>
           </div>
 
@@ -35,8 +35,8 @@ const Navbar: React.FC = () => {
                 key={link.name}
                 to={link.href}
                 className={`${isActive(link.href)
-                    ? 'text-primary-600 font-semibold'
-                    : 'text-gray-600 hover:text-primary-600'
+                  ? 'text-primary-600 font-semibold'
+                  : 'text-gray-600 hover:text-primary-600'
                   } px-3 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer`}
               >
                 {link.name}
@@ -71,8 +71,8 @@ const Navbar: React.FC = () => {
                 to={link.href}
                 onClick={() => setIsOpen(false)}
                 className={`${isActive(link.href)
-                    ? 'text-primary-600 bg-gray-50'
-                    : 'text-gray-600 hover:text-primary-600 hover:bg-gray-50'
+                  ? 'text-primary-600 bg-gray-50'
+                  : 'text-gray-600 hover:text-primary-600 hover:bg-gray-50'
                   } block px-3 py-2 rounded-md text-base font-medium cursor-pointer`}
               >
                 {link.name}

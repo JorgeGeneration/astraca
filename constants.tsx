@@ -29,7 +29,7 @@ export const SERVICES: Service[] = [
       "https://images.unsplash.com/photo-1581093588401-fbb073656555?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/eia.svg"
+    backgroundImage: "/img/servicos/eia.svg"
   },
   {
     id: "relatorios-conformidade",
@@ -50,7 +50,7 @@ export const SERVICES: Service[] = [
       "https://images.unsplash.com/photo-1507537297725-24a1c434c67b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/rca.svg"
+    backgroundImage: "/img/servicos/rca.svg"
   },
   {
     id: "viabilidade-residuos",
@@ -71,7 +71,7 @@ export const SERVICES: Service[] = [
       "https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/evsr.svg"
+    backgroundImage: "/img/servicos/evsr.svg"
   },
   {
     id: "acompanhamento-tecnico",
@@ -92,7 +92,7 @@ export const SERVICES: Service[] = [
       "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/al.svg"
+    backgroundImage: "/img/servicos/al.svg"
   },
   {
     id: "auditoria-legal",
@@ -109,11 +109,11 @@ export const SERVICES: Service[] = [
     ],
     images: [
       "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      "/src/public/img/servicos/law.svg",
-      "/src/public/img/servicos/law.jpg"
+      "/img/servicos/law.svg",
+      "/img/servicos/law.jpg"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/aac.svg",
+    backgroundImage: "/img/servicos/aac.svg",
     hideIcon: true
   },
   {
@@ -130,12 +130,12 @@ export const SERVICES: Service[] = [
       "Gestão de riscos operacionais"
     ],
     images: [
-      "/src/public/img/servicos/onshorecapa.jpg",
-      "/src/public/img/servicos/onshore.png",
-      "/src/public/img/servicos/onshore2.png"
+      "/img/servicos/onshorecapa.jpg",
+      "/img/servicos/onshore.png",
+      "/img/servicos/onshore2.png"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/off.svg",
+    backgroundImage: "/img/servicos/off.svg",
     hideIcon: true,
     overlayOpacity: "0.3"
   },
@@ -158,7 +158,7 @@ export const SERVICES: Service[] = [
       "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/me.svg"
+    backgroundImage: "/img/servicos/me.svg"
   },
   {
     id: "monitoramento-efluentes",
@@ -174,12 +174,12 @@ export const SERVICES: Service[] = [
       "Eficiência de sistemas de controle"
     ],
     images: [
-      "/src/public/img/servicos/ef.jpg",
-      "/src/public/img/servicos/ef2.jpg",
-      "/src/public/img/servicos/ef3.png"
+      "/img/servicos/ef.jpg",
+      "/img/servicos/ef2.jpg",
+      "/img/servicos/ef3.png"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/aop.svg",
+    backgroundImage: "/img/servicos/aop.svg",
     hideIcon: true,
     overlayOpacity: "0.3"
   },
@@ -198,11 +198,11 @@ export const SERVICES: Service[] = [
     ],
     images: [
       "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      "/src/public/img/cap1.jpg",
-      "/src/public/img/cap2.jpg"
+      "/img/cap1.jpg",
+      "/img/cap2.jpg"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/aac.svg"
+    backgroundImage: "/img/servicos/aac.svg"
   },
   {
     id: "treinamento-residuos",
@@ -223,7 +223,7 @@ export const SERVICES: Service[] = [
       "https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     ],
     highlight: true,
-    backgroundImage: "/src/public/img/servicos/14.svg"
+    backgroundImage: "/img/servicos/14.svg"
   }
 ];
 
@@ -239,7 +239,7 @@ export const PROJECTS: Project[] = [
     solution: "Implementamos uma logística robusta com apoio aéreo e tecnologias de sensoriamento remoto. Desenvolvemos um plano de gestão específico para a biodiversidade local que permitiu a aprovação do licenciamento em tempo recorde.",
     location: "Soyo, Angola",
     date: "2023",
-    imageUrl: "/src/public/img/servicos/cliente.png",
+    imageUrl: "/img/servicos/cliente.png",
     gallery: [
       "https://images.unsplash.com/photo-1473862170180-84427c485aca?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1582285149340-9a25b398df96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",

@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <img
-            src="/src/public/img/1.jpg"
+            src="/img/1.jpg"
             alt="Astracã Background"
             className="w-full h-full object-cover opacity-50"
           />

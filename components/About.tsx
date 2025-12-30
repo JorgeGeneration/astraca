@@ -25,7 +25,7 @@ const About: React.FC = () => {
           <div className="mt-12 lg:mt-0 relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/src/public/img/4.png"
+                src="/img/4.png"
                 alt="Astracã Team"
                 className="w-full h-full object-cover"
               />
@@ -40,7 +40,7 @@ const About: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2 order-2 md:order-1">
               <img
-                src="/src/public/img/10.png"
+                src="/img/10.png"
                 alt="Quadro Técnico"
                 className="rounded-2xl shadow-xl w-full object-cover h-80"
               />
